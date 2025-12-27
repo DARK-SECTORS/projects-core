@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  max-width: 100vw;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 65% 30%;
+  gap: 5%;
+  padding: 60px 5%;
+  width: 100%;
+  max-width: 1900px;
+  margin: 0 auto;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
